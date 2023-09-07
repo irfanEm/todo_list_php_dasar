@@ -25,7 +25,7 @@ function viewShowTodoList()
         viewAddTodoList();
       } elseif($pilihan == "2") {
         viewRemoveTodoList();
-      } elseif($pilihan == "3") {
+      } elseif($pilihan == "x") {
         break;
       } else {
         echo "Pilihan tidak ada".PHP_EOL;
